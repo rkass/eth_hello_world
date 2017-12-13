@@ -5,7 +5,7 @@ contract('HelloEthSalon:GetMessage', function(accounts) {
         hello_eth_salon.then(function(contract) {
             return contract.GetMessage.call();
         }).then(function(result){
-            assert.isTrue(result == 'Hello Ethereum Salon!');
+            assert.isTrue(result == 'I know testing of a contract!!');
             done()
         })
     });

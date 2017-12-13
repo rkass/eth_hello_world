@@ -1,14 +1,10 @@
 pragma solidity ^0.4.4;
-
 contract HelloEthSalon {
-
-  string message = "Hello Ethereum Salon!";
-
-  function HelloEthSalon() {
+  string message = "I know testing of a contract!!";
+  function HelloEthSalon() public {
     // constructor
   }
-
-  function GetMessage() returns (string) {
+  function GetMessage() view public returns (string) {
     return message;
   }
 }
