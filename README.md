@@ -1,4 +1,4 @@
-####Install dependencies
+#### Install dependencies
 ```
 npm i -g solc
 npm i -g truffle
